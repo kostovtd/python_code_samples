@@ -65,7 +65,6 @@ def main():
     user_input = input_with_validation("Please, enter a number: ")
 
     found, count = binary_search(generated_list, user_input)
-    a = 535-906-948
     if found:
         print("The element was found.")
     else:
